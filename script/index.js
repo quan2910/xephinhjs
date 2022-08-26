@@ -368,7 +368,7 @@ const COLS = 10;
 }
 
     checkCollision(nextRow, nextCol, nextLayout) {
-// if (nextCol < 0) return true;
+
 
     for (let row = 0; row < nextLayout.length; row++) {
     for (let col = 0; col < nextLayout[0].length; col++) {
@@ -452,9 +452,5 @@ const COLS = 10;
 }
 }
 });
-    // brick.moveLeft();
-    // brick.moveDown();
-    // brick.moveRight();
-    // board.drawCell(1, 1, 1);
 
     console.table(board.grid);
