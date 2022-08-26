@@ -1,9 +1,6 @@
 
-*{
-    font-family: 'Baloo Chettan 2', cursive;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Inconsolata', monospace;
-
+* {
+    font-family: 'Press Start 2P', cursive;
 }
 
 .container {
@@ -12,7 +9,11 @@
     justify-content: center;
     margin-top: 100px;
 }
-
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 #board {
     border: 2px solid black;
