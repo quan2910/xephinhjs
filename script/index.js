@@ -265,7 +265,7 @@ const COLS = 10;
     handleGameOver() {
     this.gameOver = true;
     this.isPlaying = false;
-    alert('GAME OVER!!!');
+    alert('CON GÀ!!!');
 }
 }
 
